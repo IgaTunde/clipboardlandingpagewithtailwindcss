@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .footer-text {
+    @apply mt-10 md:mt-0 hover:scale-125 transition-transform duration-300;
+  }
+}
